@@ -17,16 +17,15 @@ public class Main
 class Solution {
     public int[] distributeCandies(int candies, int num_people) {
         int[] result = new int[num_people];
-        int countCandies = 1;//记录每次给的糖果数
-        int countPeople = 0;
-        while(countCandies <= candies)
-        {
-            result[countPeople] = countCandies;
-            countCandies++;
-            if(countCandies > candies)
-            {
-                
-            }
+        int accumulate = 0;
+        int i = 1;
+        int current = 0;
+        while (accumulate < candies){
+            //每次分i个糖果，可能最后一次不够，所以取最小值
+            current = Math.min(i, candies - accumulate);
+            result[(i - 1) % num_people] += current;
+            accumulate += current;
+            i++;
         }
         return result;
     }
