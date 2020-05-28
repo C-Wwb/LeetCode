@@ -1,1 +1,2 @@
 1）Math.round() //四舍五入
+2）Arrays.stream(arr).max().getAsInt() //获取数组最大值
