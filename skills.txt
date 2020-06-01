@@ -1,3 +1,5 @@
 1）Math.round() //四舍五入
 2）Arrays.stream(arr).max().getAsInt() //获取数组最大值
 3）Collections.reverse(list); //翻转链表
+4）String binary = Integer.toBinaryString(num); //十进制转化为二进制
+5）Integer.parseInt(binaryReverse.toString() //二进制转化为十进制
