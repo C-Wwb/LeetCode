@@ -3,3 +3,8 @@
 3）Collections.reverse(list); //翻转链表
 4）String binary = Integer.toBinaryString(num); //十进制转化为二进制
 5）Integer.parseInt(binaryReverse.toString() //二进制转化为十进制
+6）Integer.bitCount(n) //统计二进制表示中1的个数
+7）String str = String.valueOf(a);  // 数字转换为字符串
+8）int a = Integer.parseInt(str); //字符串转换为数字
+9）char[] c = str.toCharArray(); //字符串转化为字符数组
+10）String str = String.valueOf(c); //字符数组转化为字符串
