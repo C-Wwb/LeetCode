@@ -8,3 +8,5 @@
 8）int a = Integer.parseInt(str); //字符串转换为数字
 9）char[] c = str.toCharArray(); //字符串转化为字符数组
 10）String str = String.valueOf(c); //字符数组转化为字符串
+11）int  min = (int)Collections.min(Arrays.asList(numbers));//最小值
+int max = (int)Collections.max(Arrays.asList(numbers));//最大值
