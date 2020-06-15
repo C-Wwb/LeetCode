@@ -10,3 +10,4 @@
 10）String str = String.valueOf(c); //字符数组转化为字符串
 11）int  min = (int)Collections.min(Arrays.asList(numbers));//最小值
 int max = (int)Collections.max(Arrays.asList(numbers));//最大值
+12）string.substring(4, 10) //返回字符串下标从4到10的字符
