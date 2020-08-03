@@ -14,3 +14,4 @@ int max = (int)Collections.max(Arrays.asList(numbers));//最大值
 13）String[] current = s.split(" "); //将字符串转化为字符串数组，用空格分隔
 14）string.trim() //去除字符串头尾的空格
 15）string.replace("oldChar", "newChar"); //将字符串中的字符替换为指定字符
+16）StringBuilder NUM1 = new StringBuilder(num1).reverse(); //字符串的翻转
