@@ -1,6 +1,7 @@
 public class Main {
     public static void main(String[] args)
     {
+
         int[] startTime = {4};
         int[] endTime = {4};
         int queryTime = 4;
