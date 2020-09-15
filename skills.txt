@@ -15,3 +15,5 @@ int max = (int)Collections.max(Arrays.asList(numbers));//最大值
 14）string.trim() //去除字符串头尾的空格
 15）string.replace("oldChar", "newChar"); //将字符串中的字符替换为指定字符
 16）StringBuilder NUM1 = new StringBuilder(num1).reverse(); //字符串的翻转
+17） List<Map.Entry<Integer, Integer>> list = new ArrayList<>(map.entrySet());
+        list.sort(Comparator.comparingInt(Map.Entry::getValue));  //map根据value值排序
